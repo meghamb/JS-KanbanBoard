@@ -37,7 +37,7 @@ const create_item = () => {
       item.innerHTML = input.value;
       adding = false;
     } else {
-      error = message;
+      error.innerHTML = message;
     }
     item.appendChild(save_btn);
     return item;
